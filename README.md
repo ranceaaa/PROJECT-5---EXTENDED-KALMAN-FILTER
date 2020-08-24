@@ -8,8 +8,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./dataset1.png "Dataset1"
-[image2]: ./dataset2.png "Dataset1"
+[image1]: ./images/dataset1.png "Dataset1"
+[image2]: ./images/dataset2.png "Dataset1"
 
 ---
 
