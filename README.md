@@ -33,7 +33,11 @@ If you want to install the libraries on linux Operating System use install-linux
 
 ## Your code should compile
 
+---
+
 The code compiles without errors with cmake and make. CMakeLists.txt(./CMakeLists.txt) is the one from the seed project.
+
+---
 
 ## Root-mean-square deviation (RMSE) 
 
@@ -46,3 +50,22 @@ The results for both datasets can be seen below.
 
 Hurray !!!!. For both datasets the results are lower than the required values.
 
+---
+
+## Follows the Correct Algorithm
+
+### Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
+
+Kalman Filter algorithm can be found in kalman_filter.cpp(./kalman_filter.cpp)
+
+###  Use the first measurements to initialize the state vectors and covariance matrices.
+
+The initialization can be seen from line 67 to 121 in FusionEKF.cpp(./FusionEKF.cpp)
+
+### Kalman Filter algorithm first predicts then updates.
+
+Prediction can be found on line 145 and the updates from line 153 to 163 in FusionEKF.cpp(./FusionEKF.cpp)
+
+### Kalman Filter uses radar and lidar measurements.
+
+Radar and lidar measurements are both used in the initialization step( from line 72 to 108) and in the update step (from line 153 to 163) in the FussionEKF.cpp(./FusionEKF.cpp) file. 
