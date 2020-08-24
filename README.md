@@ -52,7 +52,7 @@ Hurray !!!!. For both datasets the results are lower than the required values.
 
 ---
 
-## Follows the Correct Algorithm
+## Follow the Correct Algorithm
 
 ### Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
 
