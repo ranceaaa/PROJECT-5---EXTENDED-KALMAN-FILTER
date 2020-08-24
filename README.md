@@ -69,3 +69,6 @@ Prediction can be found on line 145 and the updates from line 153 to 163 in Fusi
 ### Kalman Filter uses radar and lidar measurements.
 
 Radar and lidar measurements are both used in the initialization step( from line 72 to 108) and in the update step (from line 153 to 163) in the FussionEKF.cpp(./FusionEKF.cpp) file. 
+
+
+## PLEASE PAY ATTENTION TO THE FORMULAS.
